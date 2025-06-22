@@ -1,22 +1,27 @@
 {
   "anime": [
     {
-      "title": "auto",
-      "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      "title": "호시아이",
+      "artist": "구루타밍",
+      "youtube": "https://youtu.be/ukGZbsOO6mk?si=OiSDCelrjmqEtvw8"
     },
     {
-      "title": "auto",
-      "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    },
-    {
-      "title": "auto",
-      "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    },
-    {
-      "title": "auto",
-      "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      "title": "glow",
+      "artist": "하나땅",
+      "youtube": "https://youtu.be/ql_n02ofarI?si=tkgCHyPQG8cxHLKF"
     }
   ],
-  "jpop": [],
+  "jpop": [
+    {
+      "title": "After Rain",
+      "artist": "Aimer",
+      "youtube": "https://youtu.be/aDbAdYeUzgE?si=w3YnGpYauTPVuMYW"
+    },
+    {
+      "title": "카타오모이",
+      "artist": "Aimer",
+      "youtube": "https://youtu.be/za8RxiiQnGM?si=3zFjlZh5XOZ4iE25"
+    }
+  ],
   "kpop": []
 }
