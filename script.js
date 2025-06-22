@@ -11,8 +11,19 @@ async function fetchYouTubeTitle(url) {
 }
 
 function getThumbnail(youtubeUrl) {
-  const videoId = new URL(youtubeUrl).searchParams.get("v");
-  return `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
+  let videoId;
+  try {
+    if (youtubeUrl.includes("youtu.be")) {
+      // 짧은 URL에서 ID 추출 (슬래시 뒤, 쿼리 앞까지)
+      videoId = youtubeUrl.split('/').pop().split('?')[0];
+    } else {
+      // 긴 URL에서 v 파라미터 가져오기
+      videoId = new URL(youtubeUrl).searchParams.get("v");
+    }
+  } catch {
+    videoId = null;
+  }
+  return videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : "default-thumbnail.jpg";
 }
 
 async function renderSongs() {
