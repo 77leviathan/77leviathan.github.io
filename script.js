@@ -22,10 +22,11 @@ async function renderSongs() {
     const container = document.getElementById(`${type}-songs`);
     for (const song of songs[type]) {
       const title = song.title === "auto" ? await fetchYouTubeTitle(song.youtube) : song.title;
+      const artist = song.artist ? song.artist + " - " : "";
       container.innerHTML += `
         <div class="song">
-          <img src="${getThumbnail(song.youtube)}" alt="${title}">
-          <p><a href="${song.youtube}" target="_blank">${title}</a></p>
+          <img src="${getThumbnail(song.youtube)}" alt="${artist + title}">
+          <p><a href="${song.youtube}" target="_blank">${artist}${title}</a></p>
         </div>`;
     }
   }
