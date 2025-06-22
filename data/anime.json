@@ -1,0 +1,23 @@
+[
+  {
+    "title": "바보와 시험과 소환수",
+    "image": "https://via.placeholder.com/200x300.png?text=바보와+시험과+소환수",
+    "rating": 8.5,
+    "description": "직접 입력한 줄거리입니다.",
+    "characters": "요시이 아키히사, 시모다 유우지"
+  },
+  {
+    "title": "소드아트 온라인",
+    "image": "https://via.placeholder.com/200x300.png?text=소드아트+온라인",
+    "rating": 9.2,
+    "description": "가상 세계에 갇힌 플레이어들의 생존기",
+    "characters": "키리토, 아스나"
+  },
+  {
+    "title": "다크 개더링",
+    "image": "https://via.placeholder.com/200x300.png?text=다크+개더링",
+    "rating": 7.8,
+    "description": "직접 입력한 줄거리입니다.",
+    "characters": "케이타로, 야요이"
+  }
+]

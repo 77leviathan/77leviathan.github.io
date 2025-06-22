@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>내가 좋아한 노래와 애니</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎵 내가 좋아한 노래</h1>
+  <section id="songs">
+    <h2>애니메이션 노래</h2>
+    <div class="song-list" id="anime-songs"></div>
+    <h2>J-POP</h2>
+    <div class="song-list" id="jpop-songs"></div>
+    <h2>한국 노래</h2>
+    <div class="song-list" id="kpop-songs"></div>
+  </section>
+
+  <h1>🎬 내가 좋아한 애니</h1>
+  <section>
+    <button onclick="sortByRating()">📊 평점순 정렬</button>
+    <div id="anime-list" class="anime-list"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
