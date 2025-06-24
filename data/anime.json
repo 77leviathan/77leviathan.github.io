@@ -1,23 +1,37 @@
 [
   {
     "title": "바보와 시험과 소환수",
-    "image": "https://via.placeholder.com/200x300.png?text=바보와+시험과+소환수",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Baka_to_Test_to_Shoukanjuu_light_novel_volume_1_cover.jpg",
     "rating": 8.5,
     "description": "직접 입력한 줄거리입니다.",
     "characters": "요시이 아키히사, 시모다 유우지"
   },
   {
     "title": "소드아트 온라인",
-    "image": "https://via.placeholder.com/200x300.png?text=소드아트+온라인",
+    "image": "https://anitrendz.net/news/sword-art-online-official-poster.jpg",
     "rating": 9.2,
     "description": "가상 세계에 갇힌 플레이어들의 생존기",
     "characters": "키리토, 아스나"
   },
   {
     "title": "다크 개더링",
-    "image": "https://via.placeholder.com/200x300.png?text=다크+개더링",
+    "image": "https://m.media-amazon.com/images/I/81BRLHoOQ3L._AC_SL1500_.jpg",
     "rating": 7.8,
     "description": "직접 입력한 줄거리입니다.",
-    "characters": "케이타로, 야요이"
+    "characters": "케이타로, 호우즈키 야요이, 호우즈키 에이코"
+  },
+  {
+    "title": "목소리의 형태",
+    "image": "https://scifijapan.com/wp-content/uploads/2023/Ag-Poster.jpg",
+    "rating": 8.9,
+    "description": "소리를 잃은 소녀와 소년의 재회와 성장 이야기",
+    "characters": "니시미야 쇼코, 이시다 쇼야"
+  },
+  {
+    "title": "이 세상의 한 구석에서",
+    "image": "https://imdb.com/title/tt4769824/poster.jpg",
+    "rating": 8.2,
+    "description": "전쟁 중 평범한 소녀의 일상과 삶의 기록",
+    "characters": "호조 스즈"
   }
 ]
